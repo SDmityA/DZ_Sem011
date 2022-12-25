@@ -47,27 +47,27 @@ Console.WriteLine("Hello, World!");
 // Найдите разницу между максимальным и минимальным элементов массива.
 // [3 7 22 2 78] -> 76
 
-int [] array= new int [6];
-// int sum=0;
-int max=array[0];
-for (int i = 0; i < array.Length; i++)
-{
-    array[i]=new Random().Next(-10,100);
-    if (array[i]>max)
-    {
-    max=array[i];
-    }
-}
-int min=array[0];
-for (int j = 0; j < array.Length; j++)
-{
-    if (array[j]<min)
-    {
-        min=array[j];
-    }
-}
-Console.WriteLine("Массив: ["+String.Join(",",array)+"]");
-Console.WriteLine();
-Console.WriteLine("Разница между максимальным и минимальным: "+ (max-min));
+// int [] array= new int [6];
+// // int sum=0;
+// int max=array[0];
+// for (int i = 0; i < array.Length; i++)
+// {
+//     array[i]=new Random().Next(-10,100);
+//     if (array[i]>max)
+//     {
+//     max=array[i];
+//     }
+// }
+// int min=array[0];
+// for (int j = 0; j < array.Length; j++)
+// {
+//     if (array[j]<min)
+//     {
+//         min=array[j];
+//     }
+// }
+// Console.WriteLine("Массив: ["+String.Join(",",array)+"]");
+// Console.WriteLine();
+// Console.WriteLine("Разница между максимальным и минимальным: "+ (max-min));
 
 // **********************Конец******************************************
